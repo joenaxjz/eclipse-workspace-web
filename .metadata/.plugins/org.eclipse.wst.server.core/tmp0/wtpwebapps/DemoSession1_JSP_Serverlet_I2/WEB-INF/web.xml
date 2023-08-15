@@ -10,9 +10,19 @@
   	<description></description>
   	<servlet-class>com.demo.servlets.Demo2Serverlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>DetailServlet</servlet-name>
+  	<display-name>DetailServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.DetailServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Demo2Serverlet</servlet-name>
   	<url-pattern>/Demo2Serverlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DetailServlet</servlet-name>
+  	<url-pattern>/DetailServlet</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
   		<welcome-file>index5.jsp</welcome-file>
