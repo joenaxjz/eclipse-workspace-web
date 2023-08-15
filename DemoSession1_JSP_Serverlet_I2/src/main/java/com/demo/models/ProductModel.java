@@ -8,7 +8,7 @@ import java.util.List;
 import com.demo.entities.Category;
 
 public class ProductModel {
-	public Product find() {
+	public  Product find() {
 		return new Product(1, "Name 1", 5.6, 2, false, "pic2.jpg",
 				new Category(1, "cate 1")
 				);
@@ -22,7 +22,7 @@ public class ProductModel {
 		return products;
 	}
 	
-	public Product	find(int id) {
+	public static Product	findId(int id) {
 		List<Product> products = findAll();
 		for(Product product : products) {
 			if (product.getId() == id) {

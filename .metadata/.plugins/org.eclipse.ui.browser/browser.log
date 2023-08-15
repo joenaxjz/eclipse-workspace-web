@@ -6,3 +6,9 @@ Aug 12, 2023 10:30:44.523 [15512:2804:0812/103044.523:ERROR:edge_auth_errors.cc(
 Aug 12, 2023 10:30:44.524 
 Aug 12, 2023 10:30:48.296 [15512:2804:0812/103048.296:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
 Aug 12, 2023 10:30:48.416 [15512:2804:0812/103048.416:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Aug 15, 2023 12:46:34.765 NEW SESSION
+Aug 15, 2023 12:46:34.765 [10584:16748:0815/124634.764:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+Aug 15, 2023 12:46:34.804 [10584:16748:0815/124634.803:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Aug 15, 2023 12:46:34.935 [10584:16748:0815/124634.935:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Aug 15, 2023 12:46:34.936 

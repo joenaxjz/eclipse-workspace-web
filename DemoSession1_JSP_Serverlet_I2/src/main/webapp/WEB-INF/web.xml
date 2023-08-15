@@ -16,6 +16,30 @@
   	<description></description>
   	<servlet-class>com.demo.servlets.DetailServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Demo3Servlet</servlet-name>
+  	<display-name>Demo3Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.Demo3Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AboutUsServlet</servlet-name>
+  	<display-name>AboutUsServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.AboutUsServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<display-name>ProductServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.ProductServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Demo2Serverlet</servlet-name>
   	<url-pattern>/Demo2Serverlet</url-pattern>
@@ -24,7 +48,23 @@
   	<servlet-name>DetailServlet</servlet-name>
   	<url-pattern>/DetailServlet</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Demo3Servlet</servlet-name>
+  	<url-pattern>/Demo3Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AboutUsServlet</servlet-name>
+  	<url-pattern>/AboutUsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
-  		<welcome-file>index5.jsp</welcome-file>
+  		<welcome-file>index7.jsp</welcome-file>
   </welcome-file-list>
 </web-app>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="DemoSession1_JSP_Serverlet_I2">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <property name="context-root" value="DemoSession1_JSP_Serverlet_I2"/>
-        <property name="java-output-path" value="/DemoSession1_JSP_Serverlet_I2/target/classes"/>
-    </wb-module>
-</project-modules>

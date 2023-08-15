@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="demo3?action=menu1">Menu 1|</a>
+	<a href="demo3?action=menu2">Menu 2|</a>
+	<a href="demo3?action=menu3">Menu 3</a>
+	
+	<br><br>
+	<jsp:inclue page="a.jsp"></jsp:inclue>
+
+</body>
+</html>
