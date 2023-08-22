@@ -1,0 +1,14 @@
+package com.demo.models;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demo.entities.Account;
+
+public class AccountModel {
+	private List<Account> accounts;
+	public AccountModel() {
+		accounts = new ArrayList<Account>();
+		
+	}
+}

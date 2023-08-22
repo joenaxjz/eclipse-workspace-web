@@ -6,7 +6,7 @@ import java.util.List;
 public class Question {
 	private int id;
 	private String content;
-	private List<Answer> anwsers = new ArrayList<Answer>();
+	private List<Answer> answers = new ArrayList<Answer>();
 	
 	public int getId() {
 		return id;
@@ -21,11 +21,11 @@ public class Question {
 		this.content = content;
 	}
 	
-	public List<Answer> getAnwsers() {
-		return anwsers;
+	public List<Answer> getAnswers() {
+		return answers;
 	}
-	public void setAnwsers(List<Answer> anwsers) {
-		this.anwsers = anwsers;
+	public void setAnwsers(List<Answer> answers) {
+		this.answers = answers;
 	}
 	
 	public Question(int id, String content) {

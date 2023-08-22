@@ -10,10 +10,12 @@
 	<a href="home">Home</a> |
 	<a href="aboutus">About Us</a> |
 	<a href="news">News</a> |
+	<a href="cart">Cart(${sessionScope.cart != null ? sessionScope.cart.size() : 0  })</a> |
 	<a href="product?action=index">Products</a>
-	<br><br>
+	<br>
+	<br>
 	<jsp:include page="${p }"></jsp:include>
-	<br><br>
-	Coppyright
+	<br>
+	<br> Coppyright
 </body>
 </html>

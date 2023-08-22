@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Demo 5</h1>
+	id: ${sessionScope.id }
+	<br> username: ${sessionScope.username }
+
+	<h3>Product Info</h3>
+	Product ID: ${sessionScope.product.id } Product Name:
+	${sessionScope.product.name } Category ID:
+	${sessionScope.product.category.id } Category Name:
+	${sessionScope.product.category.name }
+
+</body>
+</html>

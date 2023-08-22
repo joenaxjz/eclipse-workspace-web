@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<h1>Cart</h1>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Photo</th>
+			<th>Price</th>
+			<th>Quantity</th>
+			<th>Sub Total</th>
+		</tr>
+		<c:set var="total" value="0" ></c:set>
+		<c:forEach var="product" items="${products }">
+		<c:set var="total" value="${total + product.price * product.quantity }" ></c:set>
+			<tr>
+				<td>${product.id}</td>
+				<td>
+				<a href="product?action=detail&id=${product.id}">
+				${product.name}
+				</a>
+				</td>
+				<td><img src="assets/images/${product.photo}" width="70px"height="100px"></td>
+				<td>${product.price}</td>
+				<td>${product.quantity}
+				</td>
+				<td>${product.price * product.quantity}</td>
+	
+			</tr>
+		</c:forEach>
+	</table>

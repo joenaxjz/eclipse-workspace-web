@@ -46,6 +46,30 @@
   	<description></description>
   	<servlet-class>com.demo.servlets.Demo4Servlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>QServlet</servlet-name>
+  	<display-name>QServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.QServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Demo5Servlet</servlet-name>
+  	<display-name>Demo5Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.Demo5Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AccountServlet</servlet-name>
+  	<display-name>AccountServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.AccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CartServlet</servlet-name>
+  	<display-name>CartServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.CartServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Demo2Serverlet</servlet-name>
   	<url-pattern>/Demo2Serverlet</url-pattern>
@@ -74,7 +98,23 @@
   	<servlet-name>Demo4Servlet</servlet-name>
   	<url-pattern>/Demo4Servlet</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>QServlet</servlet-name>
+  	<url-pattern>/QServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Demo5Servlet</servlet-name>
+  	<url-pattern>/Demo5Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AccountServlet</servlet-name>
+  	<url-pattern>/AccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CartServlet</servlet-name>
+  	<url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
-  		<welcome-file>index8.jsp</welcome-file>
+  		<welcome-file>index9.jsp</welcome-file>
   </welcome-file-list>
 </web-app>

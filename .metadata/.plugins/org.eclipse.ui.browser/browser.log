@@ -12,3 +12,26 @@ Aug 15, 2023 12:46:34.765 [10584:16748:0815/124634.764:ERROR:chrome_browser_clou
 Aug 15, 2023 12:46:34.804 [10584:16748:0815/124634.803:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
 Aug 15, 2023 12:46:34.935 [10584:16748:0815/124634.935:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
 Aug 15, 2023 12:46:34.936 
+
+Aug 19, 2023 12:39:13.212 NEW SESSION
+Aug 19, 2023 12:39:13.212 [11928:20312:0819/123913.209:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+Aug 19, 2023 12:39:13.257 [11928:20312:0819/123913.256:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Aug 19, 2023 12:39:13.444 [11928:20312:0819/123913.443:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Aug 19, 2023 12:39:13.445 
+
+Aug 22, 2023 12:38:32.725 NEW SESSION
+Aug 22, 2023 12:38:32.726 [20360:21316:0822/123832.723:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+Aug 22, 2023 12:38:32.782 [20360:21316:0822/123832.782:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Aug 22, 2023 12:38:32.986 [20360:21316:0822/123832.986:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Aug 22, 2023 12:38:32.987 
+Aug 22, 2023 12:39:46.860 [20360:14148:0822/123946.860:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+Aug 22, 2023 12:39:46.862 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Aug 22, 2023 12:39:46.862 ERROR: Failed parsing Certificate
+Aug 22, 2023 12:39:46.862 
+Aug 22, 2023 12:39:47.156 [20360:14148:0822/123947.156:ERROR:cert_verify_proc_builtin.cc(709)] CertVerifyProcBuiltin for code.yengo.com failed:
+Aug 22, 2023 12:39:47.156 ----- Certificate i=0 (CN=code.yengo.com) -----
+Aug 22, 2023 12:39:47.157 ERROR: Time is after notAfter
+Aug 22, 2023 12:39:47.157 
+Aug 22, 2023 12:39:47.157 
+Aug 22, 2023 13:01:10.894 [20360:21316:0822/130110.894:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Aug 22, 2023 13:02:21.30 [20360:21316:0822/130221.030:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.

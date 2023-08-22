@@ -1,1 +1,1 @@
-<jsp:forward page="demo4"></jsp:forward>
+<jsp:forward page=""></jsp:forward>

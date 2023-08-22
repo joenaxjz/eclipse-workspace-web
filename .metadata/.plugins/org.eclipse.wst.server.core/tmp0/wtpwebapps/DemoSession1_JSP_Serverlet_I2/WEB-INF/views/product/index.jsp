@@ -14,6 +14,7 @@
 			<th>Price</th>
 			<th>Quantity</th>
 			<th>Sub Total</th>
+			<th>Action</th>
 		</tr>
 		
 		<c:set var="total" value="0" ></c:set>
@@ -37,10 +38,13 @@
 					</c:if>
 				</td>
 				<td>${product.price * product.quantity}</td>
+					<td>
+						<a href="cart?action=buy&id=${product.id }">Buy Now</a>
+					</td>
 			</tr>
 		</c:forEach>
 		<tr>
-			<th colspan="7" align="right">Total</th>
+			<th colspan="8" align="right">Total</th>
 			<td>${total }</td>
 		</tr>
 	</table>
