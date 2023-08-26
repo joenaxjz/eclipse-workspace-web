@@ -75,6 +75,8 @@
 						s += '<tr>';
 						s += '<td>' + products[i].id + '</td>';
 						s += '<td>' + products[i].name + '</td>';
+						s += '<td><img src="assets/images' + products[i].photo + '"width="70px"
+						height="100px"></td>';
 						s += '<td>' + products[i].category.id + '</td>';
 						s += '<td>' + products[i].category.name + '</td>';
 						s += '</tr>';

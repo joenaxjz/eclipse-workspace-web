@@ -52,3 +52,19 @@ Aug 24, 2023 13:46:14.449 [25564:11160:0824/134614.449:ERROR:fallback_task_provi
 Aug 24, 2023 13:46:22.878 [25564:11160:0824/134622.877:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
 Aug 24, 2023 13:48:28.372 [25564:11160:0824/134828.372:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
 Aug 24, 2023 13:48:30.761 [25564:11160:0824/134830.761:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Aug 26, 2023 12:39:50.346 NEW SESSION
+Aug 26, 2023 12:39:50.346 [4936:11080:0826/123950.345:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Aug 26, 2023 12:39:50.380 [4936:11080:0826/123950.379:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Aug 26, 2023 12:39:50.499 [4936:11080:0826/123950.498:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Aug 26, 2023 12:39:50.500 
+Aug 26, 2023 12:39:57.829 [4936:23148:0826/123957.829:ERROR:cert_issuer_source_aia.cc(36)] Error parsing cert retrieved from AIA (as DER):
+Aug 26, 2023 12:39:57.829 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Aug 26, 2023 12:39:57.830 ERROR: Failed parsing Certificate
+Aug 26, 2023 12:39:57.830 
+Aug 26, 2023 12:39:58.64 [4936:23148:0826/123958.064:ERROR:cert_verify_proc_builtin.cc(709)] CertVerifyProcBuiltin for code.yengo.com failed:
+Aug 26, 2023 12:39:58.64 ----- Certificate i=0 (CN=code.yengo.com) -----
+Aug 26, 2023 12:39:58.64 ERROR: Time is after notAfter
+Aug 26, 2023 12:39:58.64 
+Aug 26, 2023 12:39:58.65 
+Aug 26, 2023 13:12:16.214 [4936:11080:0826/131216.214:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://devtools.azureedge.net/serve_file/@e584466f74bf872ad84fcd188ddc4b60fd2ec646/&can_dock=true&isFeedbackEnabled=true&msEdgeDevToolsMicroFeedback=true&enhancedDevTools=true&enabledExperiments=msEdgeDevToolsNetworkConsole;layersIn3DView;keyboardShortcutEditor;msEdgeVSCodeThemes;msEdgeDevToolsDetachedElements;msEdgeDynamicWelcome (1)
