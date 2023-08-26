@@ -8,10 +8,12 @@
     <fullyQualifiedTypeName name="com.demo.entities.Answer"/>
     <fullyQualifiedTypeName name="org.mindrot.jbcrypt.BCrypt"/>
     <fullyQualifiedTypeName name="com.demo.models.AccountModel"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="com.demo.models.ProductModel"/>
     <fullyQualifiedTypeName name="com.demo.entities.Product"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.demo.entities.Item"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.demo.models.ProductModel"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 </qualifiedTypeNameHistroy>
