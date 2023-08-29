@@ -9,11 +9,16 @@
     <fullyQualifiedTypeName name="org.mindrot.jbcrypt.BCrypt"/>
     <fullyQualifiedTypeName name="com.demo.models.AccountModel"/>
     <fullyQualifiedTypeName name="com.demo.entities.Product"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.demo.entities.Item"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="com.demo.models.ProductModel"/>
     <fullyQualifiedTypeName name="com.google.gson.Gson"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.jsp.tagext.SimpleTagSupport"/>
+    <fullyQualifiedTypeName name="javax.servlet.jsp.JspWriter"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.StringWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.jsp.PageContext"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

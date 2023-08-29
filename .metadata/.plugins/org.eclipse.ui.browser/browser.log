@@ -68,3 +68,18 @@ Aug 26, 2023 12:39:58.64 ERROR: Time is after notAfter
 Aug 26, 2023 12:39:58.64 
 Aug 26, 2023 12:39:58.65 
 Aug 26, 2023 13:12:16.214 [4936:11080:0826/131216.214:ERROR:CONSOLE(1)] "Uncaught (in promise) SyntaxError: Unexpected token 'H', "HTTP/1.1 4"... is not valid JSON", source: devtools://devtools/bundled/devtools_app.html?remoteBase=https://devtools.azureedge.net/serve_file/@e584466f74bf872ad84fcd188ddc4b60fd2ec646/&can_dock=true&isFeedbackEnabled=true&msEdgeDevToolsMicroFeedback=true&enhancedDevTools=true&enabledExperiments=msEdgeDevToolsNetworkConsole;layersIn3DView;keyboardShortcutEditor;msEdgeVSCodeThemes;msEdgeDevToolsDetachedElements;msEdgeDynamicWelcome (1)
+
+Aug 29, 2023 12:42:20.85 NEW SESSION
+Aug 29, 2023 12:42:20.86 [11932:11876:0829/124220.084:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Aug 29, 2023 12:42:20.119 [11932:11876:0829/124220.119:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Aug 29, 2023 12:42:20.250 [11932:11876:0829/124220.250:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Aug 29, 2023 12:42:20.250 
+Aug 29, 2023 12:42:35.28 [11932:3820:0829/124235.028:ERROR:cert_issuer_source_aia.cc(36)] Error parsing cert retrieved from AIA (as DER):
+Aug 29, 2023 12:42:35.29 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Aug 29, 2023 12:42:35.29 ERROR: Failed parsing Certificate
+Aug 29, 2023 12:42:35.29 
+Aug 29, 2023 12:42:35.306 [11932:3820:0829/124235.305:ERROR:cert_verify_proc_builtin.cc(709)] CertVerifyProcBuiltin for code.yengo.com failed:
+Aug 29, 2023 12:42:35.306 ----- Certificate i=0 (CN=code.yengo.com) -----
+Aug 29, 2023 12:42:35.307 ERROR: Time is after notAfter
+Aug 29, 2023 12:42:35.308 
+Aug 29, 2023 12:42:35.308 

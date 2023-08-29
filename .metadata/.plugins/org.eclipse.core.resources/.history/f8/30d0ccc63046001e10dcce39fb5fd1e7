@@ -1,0 +1,7 @@
+package com.demo.customtags;
+
+import javax.servlet.jsp.tagext.SimpleTagSupport;
+
+public class HelloTag extends SimpleTagSupport {
+
+}

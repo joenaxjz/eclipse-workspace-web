@@ -1,0 +1,5 @@
+package com.demo.customtags;
+
+public class HelloTag {
+
+}

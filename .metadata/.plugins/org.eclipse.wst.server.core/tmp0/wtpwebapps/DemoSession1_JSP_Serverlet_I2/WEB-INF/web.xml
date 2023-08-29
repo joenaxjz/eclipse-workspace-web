@@ -82,6 +82,12 @@
   	<description></description>
   	<servlet-class>com.demo.servlets.SearchAjaxServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Demo6Servlet</servlet-name>
+  	<display-name>Demo6Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.Demo6Servlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Demo2Serverlet</servlet-name>
   	<url-pattern>/Demo2Serverlet</url-pattern>
@@ -133,6 +139,10 @@
   <servlet-mapping>
   	<servlet-name>SearchAjaxServlet</servlet-name>
   	<url-pattern>/SearchAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Demo6Servlet</servlet-name>
+  	<url-pattern>/Demo6Servlet</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
   		<welcome-file>index10.jsp</welcome-file>

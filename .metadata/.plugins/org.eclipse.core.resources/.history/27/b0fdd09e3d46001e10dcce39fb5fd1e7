@@ -1,0 +1,4 @@
+<%@ tag language="java" pageEncoding="UTF-8" isELIgnored="false" %>
+<%@ attribute name="number1" required="true" rtexprvalue="true" type="jave.lang.Double" %>
+<%@ attribute name="number2" required="true" rtexprvalue="true" type="jave.lang.Double" %>
+Tổng là: ${number1 + number2 }

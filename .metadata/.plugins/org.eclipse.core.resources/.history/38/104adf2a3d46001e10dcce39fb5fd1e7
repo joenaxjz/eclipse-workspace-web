@@ -1,0 +1,3 @@
+<%@ tag language="java" pageEncoding="UTF-8" isELIgnored="false" %>
+<%@ attribute name="fullname" required="true" rtexprvalue="true" type="jave.lang.String" %>
+<h3>Hi ${fullname }</h3>
