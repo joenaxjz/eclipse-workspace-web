@@ -88,6 +88,12 @@
   	<description></description>
   	<servlet-class>com.demo.servlets.Demo6Servlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>TrangchuServlet</servlet-name>
+  	<display-name>TrangchuServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlets.TrangchuServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Demo2Serverlet</servlet-name>
   	<url-pattern>/Demo2Serverlet</url-pattern>
@@ -144,7 +150,11 @@
   	<servlet-name>Demo6Servlet</servlet-name>
   	<url-pattern>/Demo6Servlet</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TrangchuServlet</servlet-name>
+  	<url-pattern>/TrangchuServlet</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
-  		<welcome-file>index10.jsp</welcome-file>
+  		<welcome-file>index11.jsp</welcome-file>
   </welcome-file-list>
 </web-app>

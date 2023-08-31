@@ -1,0 +1,1 @@
+<jsp:forward page="trangchu"></jsp:forward>

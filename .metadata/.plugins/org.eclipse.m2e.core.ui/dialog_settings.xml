@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\Eclipse\eclipse-workspace-web\DemoSession1_JSP_Serverlet_I2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -28,9 +29,11 @@
 			<item value="com.demo"/>
 		</list>
 		<list key="groupId">
+			<item value="BootShop"/>
 			<item value="DemoSession1_JSP_Serverlet_I2"/>
 		</list>
 		<list key="artifactId">
+			<item value="BootShop"/>
 			<item value="DemoSession1_JSP_Serverlet_I2"/>
 		</list>
 		<list key="projectNameTemplate">

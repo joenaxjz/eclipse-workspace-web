@@ -83,3 +83,10 @@ Aug 29, 2023 12:42:35.306 ----- Certificate i=0 (CN=code.yengo.com) -----
 Aug 29, 2023 12:42:35.307 ERROR: Time is after notAfter
 Aug 29, 2023 12:42:35.308 
 Aug 29, 2023 12:42:35.308 
+
+Aug 31, 2023 12:58:42.290 NEW SESSION
+Aug 31, 2023 12:58:42.290 [6104:16188:0831/125842.290:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Aug 31, 2023 12:58:42.323 [6104:16188:0831/125842.323:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Aug 31, 2023 12:58:42.464 [6104:16188:0831/125842.464:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Aug 31, 2023 12:58:42.464 
+Aug 31, 2023 13:05:26.12 [6104:16188:0831/130526.012:ERROR:chrome_web_ui_controller_factory.cc(1608)] Requested load of chrome://newtab/ for incorrect profile type.
