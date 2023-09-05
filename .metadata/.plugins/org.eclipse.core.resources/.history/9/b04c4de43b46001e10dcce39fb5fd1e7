@@ -1,3 +1,0 @@
-<%@ tag language="java" pageEncoding="UTF-8" isELIgnored="false" %>
-<%@ attribute name="Fullname" required="true" rtexprvalue="true" type="jave.lang.String" %>
-<h3>Hi JSP Tag</h3>

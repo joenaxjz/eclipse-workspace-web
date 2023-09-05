@@ -2,4 +2,5 @@
 <modules>
   <module moduleId="org.eclipse.jst.j2ee.server:DemoSession1_JSP_Serverlet_I2" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:BootShop" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:DemoSession2_Hibernate" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>
