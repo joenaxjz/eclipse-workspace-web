@@ -59,7 +59,7 @@ public class Role implements java.io.Serializable {
 	}
 
 	@ManyToMany(fetch = FetchType.LAZY)
-	@JoinTable(name = "account_role", catalog = "demo_hinbernate", joinColumns = {
+	@JoinTable(name = "account_role", joinColumns = {
 			@JoinColumn(name = "role_id", nullable = false, updatable = false) }, inverseJoinColumns = {
 					@JoinColumn(name = "account_id", nullable = false, updatable = false) })
 	public Set<Account> getAccounts() {

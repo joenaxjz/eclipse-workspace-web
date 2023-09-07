@@ -25,7 +25,7 @@ public class Account implements java.io.Serializable {
 	private Integer id;
 	private String username;
 	private String password;
-	private int fullName;
+	private String fullName;
 	private boolean status;
 	private String email;
 	private Set<Role> roles = new HashSet<Role>(0);
@@ -34,7 +34,7 @@ public class Account implements java.io.Serializable {
 	public Account() {
 	}
 
-	public Account(String username, String password, int fullName, boolean status, String email) {
+	public Account(String username, String password, String fullName, boolean status, String email) {
 		this.username = username;
 		this.password = password;
 		this.fullName = fullName;
@@ -42,7 +42,7 @@ public class Account implements java.io.Serializable {
 		this.email = email;
 	}
 
-	public Account(String username, String password, int fullName, boolean status, String email, Set<Role> roles,
+	public Account(String username, String password, String fullName, boolean status, String email, Set<Role> roles,
 			Set<Invoice> invoices) {
 		this.username = username;
 		this.password = password;
@@ -84,11 +84,11 @@ public class Account implements java.io.Serializable {
 	}
 
 	@Column(name = "full_name", nullable = false)
-	public int getFullName() {
+	public String getFullName() {
 		return this.fullName;
 	}
 
-	public void setFullName(int fullName) {
+	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
 
@@ -111,7 +111,7 @@ public class Account implements java.io.Serializable {
 	}
 
 	@ManyToMany(fetch = FetchType.LAZY)
-	@JoinTable(name = "account_role", catalog = "demo_hinbernate", joinColumns = {
+	@JoinTable(name = "account_role", joinColumns = {
 			@JoinColumn(name = "account_id", nullable = false, updatable = false) }, inverseJoinColumns = {
 					@JoinColumn(name = "role_id", nullable = false, updatable = false) })
 	public Set<Role> getRoles() {
