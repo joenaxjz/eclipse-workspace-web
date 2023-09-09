@@ -90,3 +90,19 @@ Aug 31, 2023 12:58:42.323 [6104:16188:0831/125842.323:ERROR:assistance_home_clie
 Aug 31, 2023 12:58:42.464 [6104:16188:0831/125842.464:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
 Aug 31, 2023 12:58:42.464 
 Aug 31, 2023 13:05:26.12 [6104:16188:0831/130526.012:ERROR:chrome_web_ui_controller_factory.cc(1608)] Requested load of chrome://newtab/ for incorrect profile type.
+
+Sep 09, 2023 12:43:21.669 NEW SESSION
+Sep 09, 2023 12:43:21.669 [8260:2152:0909/124321.669:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 09, 2023 12:43:21.720 [8260:2152:0909/124321.720:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 09, 2023 12:43:21.872 [8260:2152:0909/124321.872:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 09, 2023 12:43:21.873 
+Sep 09, 2023 12:43:28.663 [8260:18884:0909/124328.663:ERROR:cert_issuer_source_aia.cc(36)] Error parsing cert retrieved from AIA (as DER):
+Sep 09, 2023 12:43:28.664 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Sep 09, 2023 12:43:28.664 ERROR: Failed parsing Certificate
+Sep 09, 2023 12:43:28.664 
+Sep 09, 2023 12:43:28.924 [8260:18884:0909/124328.924:ERROR:cert_verify_proc_builtin.cc(709)] CertVerifyProcBuiltin for code.yengo.com failed:
+Sep 09, 2023 12:43:28.924 ----- Certificate i=0 (CN=code.yengo.com) -----
+Sep 09, 2023 12:43:28.925 ERROR: Time is after notAfter
+Sep 09, 2023 12:43:28.925 
+Sep 09, 2023 12:43:28.926 
+Sep 09, 2023 12:46:23.06 [8260:2152:0909/124623.006:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
