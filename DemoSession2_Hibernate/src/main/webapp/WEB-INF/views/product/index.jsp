@@ -45,6 +45,8 @@
 	</fieldset>
 
 	<h1>Product List</h1>
+	
+	<a href="product?action=add">Add Product</a>
 
 	<table border="1">
 		<tr>
@@ -57,12 +59,18 @@
 			<td>description</td>
 			<td>created</td>
 			<td>photo</td>
+			<td>action</td>
+			
 		</tr>
 		<c:forEach var="product" items="${products }">
 			<tr>
 				<td>${product.id }</td>
 				<td>${product.category.name }</td>
-        		<td>${product.name }</td>
+        		<td>
+        		<a href="product?action=details&id=${product.id }">
+        				${product.name }
+        		</a>
+        		</td>
 				<td>${product.price }</td>
 				<td>${product.quantity }</td>
 				<td>${product.status }</td>
@@ -70,8 +78,14 @@
 				<td><f:formatDate value="${product.created }" pattern="dd/MM/yyyy" var="created"></f:formatDate>
 				${created }</td>
 				<td>
+				<a href="product?action=details&id=${product.id }">
 				<img src="assets/images/${product.photo }" width ="70px" height="100px">
-				
+				</a>
+				</td>
+				<td>
+				<a>Update</a>
+				|
+				<a href="product?action=delete&id=${product.id }" onclick="return confirm('r u sure ?')">Delete</a>
 				</td>
 			</tr>
 		</c:forEach>

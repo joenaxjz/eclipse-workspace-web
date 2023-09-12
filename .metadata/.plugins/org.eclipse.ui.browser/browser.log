@@ -106,3 +106,18 @@ Sep 09, 2023 12:43:28.925 ERROR: Time is after notAfter
 Sep 09, 2023 12:43:28.925 
 Sep 09, 2023 12:43:28.926 
 Sep 09, 2023 12:46:23.06 [8260:2152:0909/124623.006:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Sep 12, 2023 12:45:12.30 NEW SESSION
+Sep 12, 2023 12:45:12.30 [60088:12596:0912/124512.028:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 12, 2023 12:45:12.83 [60088:12596:0912/124512.083:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 12, 2023 12:45:12.316 [60088:12596:0912/124512.316:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 12, 2023 12:45:12.317 
+Sep 12, 2023 12:45:32.641 [60088:46804:0912/124532.640:ERROR:cert_issuer_source_aia.cc(36)] Error parsing cert retrieved from AIA (as DER):
+Sep 12, 2023 12:45:32.641 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Sep 12, 2023 12:45:32.641 ERROR: Failed parsing Certificate
+Sep 12, 2023 12:45:32.641 
+Sep 12, 2023 12:45:32.851 [60088:46804:0912/124532.850:ERROR:cert_verify_proc_builtin.cc(709)] CertVerifyProcBuiltin for code.yengo.com failed:
+Sep 12, 2023 12:45:32.851 ----- Certificate i=0 (CN=code.yengo.com) -----
+Sep 12, 2023 12:45:32.851 ERROR: Time is after notAfter
+Sep 12, 2023 12:45:32.851 
+Sep 12, 2023 12:45:32.851 

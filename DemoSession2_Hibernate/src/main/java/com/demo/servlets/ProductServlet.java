@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.demo.entities.Product;
 import com.demo.models.CategoryModel;
 import com.demo.models.ProductModel;
 
@@ -40,7 +41,32 @@ public class ProductServlet extends HttpServlet {
 			doGet_findByPrice(response, request);
 		} else if (action.equalsIgnoreCase("findByCategory")) {
 			doGet_findByCategory(response, request);
+		} else if (action.equalsIgnoreCase("details")) {
+			doGet_Details(response, request);
+		} else if (action.equalsIgnoreCase("add")) {
+			doGet_Add(response, request);
+		} else if (action.equalsIgnoreCase("delete")) {
+			doGet_Delete(response, request);
 		}
+	}
+
+	private void doGet_Delete(HttpServletResponse response, HttpServletRequest request) throws ServletException, IOException {
+		Integer id = Integer.parseInt(request.getParameter("id"));
+		ProductModel productModel = new ProductModel();
+		productModel.delete(productModel.find(id));
+		response.sendRedirect("product");
+	}
+
+	private void doGet_Add(HttpServletResponse response, HttpServletRequest request)  throws ServletException, IOException {
+		
+		response.sendRedirect("product");
+	}
+
+	private void doGet_Details(HttpServletResponse response, HttpServletRequest request) throws ServletException, IOException {
+		ProductModel productModel = new ProductModel();
+		Integer id = Integer.parseInt(request.getParameter("id"));
+		request.setAttribute("product", productModel.find(id));
+		request.getRequestDispatcher("WEB-INF/views/product/detail.jsp").forward(request, response);
 	}
 
 	private void doGet_findByCategory(HttpServletResponse response, HttpServletRequest request) throws ServletException, IOException  {

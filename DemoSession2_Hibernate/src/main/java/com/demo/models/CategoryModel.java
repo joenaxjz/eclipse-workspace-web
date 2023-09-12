@@ -38,4 +38,113 @@ public class CategoryModel {
 		}
 		return categories;
 	}
+	
+	public boolean create(Category category){
+		boolean rs = true;
+		Session session = null ;
+		Transaction trans = null;
+		try {
+			session = sessionFactory.openSession(); // mở kết nối vào database
+			trans = session.beginTransaction();
+			// dùng câu truy vấn cho SQL, HQL đều được
+			session.save(category);
+			trans.commit();
+			System.out.println("category id: " + category.getId());
+		} catch (Exception e){
+			
+				e.printStackTrace();
+				rs = false;
+				if(trans != null) {
+					trans.rollback();
+				}
+				
+		} finally {
+			if(session != null) {
+				session.close();
+			}
+		}
+		return rs;
+	}
+	
+	public boolean delete(Category category){
+		boolean rs = true;
+		Session session = null ;
+		Transaction trans = null;
+		try {
+			session = sessionFactory.openSession(); // mở kết nối vào database
+			trans = session.beginTransaction();
+			// dùng câu truy vấn cho SQL, HQL đều được
+			session.delete(category);
+			trans.commit();
+			System.out.println("category id: " + category.getId());
+		} catch (Exception e){
+			
+				e.printStackTrace();
+				rs = false;
+				if(trans != null) {
+					trans.rollback();
+				}
+				
+		} finally {
+			if(session != null) {
+				session.close();
+			}
+		}
+		return rs;
+	}
+	
+	
+	public Category find(int id){
+		Category category = null;
+		Session session = null ;
+		Transaction trans = null;
+		try {
+			session = sessionFactory.openSession(); // mở kết nối vào database
+			trans = session.beginTransaction();
+			// dùng câu truy vấn cho SQL, HQL đều được
+			category = (Category) session.createQuery("from Category where id = :id")
+					.setParameter("id", id)
+					.getSingleResult();
+			trans.commit();
+		} catch (Exception e){
+			
+				e.printStackTrace();
+				category = null;
+				if(trans != null) {
+					trans.rollback();
+				}
+				
+		} finally {
+			if(session != null) {
+				session.close();
+			}
+		}
+		return category;
+	}
+	
+	public boolean update(Category category){
+		boolean rs = true;
+		Session session = null ;
+		Transaction trans = null;
+		try {
+			session = sessionFactory.openSession(); // mở kết nối vào database
+			trans = session.beginTransaction();
+			// dùng câu truy vấn cho SQL, HQL đều được
+			session.update(category);
+			trans.commit();
+		} catch (Exception e){
+			
+				e.printStackTrace();
+				rs = false;
+				if(trans != null) {
+					trans.rollback();
+				}
+				
+		} finally {
+			if(session != null) {
+				session.close();
+			}
+		}
+		return rs;
+	}
 }
