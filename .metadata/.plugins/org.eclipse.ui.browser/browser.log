@@ -121,3 +121,16 @@ Sep 12, 2023 12:45:32.851 ----- Certificate i=0 (CN=code.yengo.com) -----
 Sep 12, 2023 12:45:32.851 ERROR: Time is after notAfter
 Sep 12, 2023 12:45:32.851 
 Sep 12, 2023 12:45:32.851 
+
+Sep 14, 2023 07:51:25.625 NEW SESSION
+Sep 14, 2023 07:51:25.625 [1344:7052:0914/075125.624:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 14, 2023 07:51:25.670 [1344:7052:0914/075125.670:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 14, 2023 07:51:25.804 [1344:7052:0914/075125.804:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 14, 2023 07:51:25.805 
+Sep 14, 2023 08:58:37.421 [1344:7052:0914/085837.421:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Sep 14, 2023 11:43:57.236 NEW SESSION
+Sep 14, 2023 11:43:57.236 [14756:17524:0914/114357.235:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 14, 2023 11:43:57.271 [14756:17524:0914/114357.271:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 14, 2023 11:43:57.413 [14756:17524:0914/114357.413:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 14, 2023 11:43:57.413 

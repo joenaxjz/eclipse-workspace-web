@@ -83,7 +83,7 @@
 				</a>
 				</td>
 				<td>
-				<a>Update</a>
+				<a href="product?action=edit&id=${product.id }">Update</a>
 				|
 				<a href="product?action=delete&id=${product.id }" onclick="return confirm('r u sure ?')">Delete</a>
 				</td>
