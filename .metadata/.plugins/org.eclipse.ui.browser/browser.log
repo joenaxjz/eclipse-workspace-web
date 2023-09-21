@@ -134,3 +134,48 @@ Sep 14, 2023 11:43:57.236 [14756:17524:0914/114357.235:ERROR:chrome_browser_clou
 Sep 14, 2023 11:43:57.271 [14756:17524:0914/114357.271:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
 Sep 14, 2023 11:43:57.413 [14756:17524:0914/114357.413:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
 Sep 14, 2023 11:43:57.413 
+
+Sep 15, 2023 14:16:51.891 NEW SESSION
+Sep 15, 2023 14:16:51.891 [17404:7676:0915/141651.890:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 15, 2023 14:16:51.947 [17404:7676:0915/141651.946:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 15, 2023 14:16:52.99 [17404:7676:0915/141652.099:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 15, 2023 14:16:52.100 
+Sep 15, 2023 14:16:59.454 [17404:20340:0915/141659.453:ERROR:cert_issuer_source_aia.cc(36)] Error parsing cert retrieved from AIA (as DER):
+Sep 15, 2023 14:16:59.454 ERROR: Couldn't read tbsCertificate as SEQUENCE
+Sep 15, 2023 14:16:59.454 ERROR: Failed parsing Certificate
+Sep 15, 2023 14:16:59.454 
+Sep 15, 2023 14:16:59.602 [17404:20340:0915/141659.602:ERROR:cert_verify_proc_builtin.cc(709)] CertVerifyProcBuiltin for code.yengo.com failed:
+Sep 15, 2023 14:16:59.602 ----- Certificate i=0 (CN=code.yengo.com) -----
+Sep 15, 2023 14:16:59.603 ERROR: Time is after notAfter
+Sep 15, 2023 14:16:59.603 
+Sep 15, 2023 14:16:59.603 
+
+Sep 16, 2023 12:20:12.618 NEW SESSION
+Sep 16, 2023 12:20:12.619 [14636:18212:0916/122012.617:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 16, 2023 12:20:12.654 [14636:18212:0916/122012.654:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 16, 2023 12:20:12.772 [14636:18212:0916/122012.772:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 16, 2023 12:20:12.772 
+
+Sep 16, 2023 13:51:37.481 NEW SESSION
+Sep 16, 2023 13:51:37.481 [13816:21028:0916/135137.479:ERROR:chrome_browser_cloud_management_controller.cc(163)] Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 16, 2023 13:51:37.553 [13816:21028:0916/135137.552:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 16, 2023 13:51:37.776 [13816:21028:0916/135137.776:ERROR:edge_auth_errors.cc(487)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 16, 2023 13:51:37.777 
+Sep 16, 2023 13:51:42.130 [13816:21028:0916/135142.130:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Sep 16, 2023 13:51:49.567 [13816:21028:0916/135149.567:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Sep 16, 2023 13:52:22.66 [13816:21028:0916/135222.065:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Sep 16, 2023 13:53:24.503 [13816:21028:0916/135324.503:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Sep 17, 2023 17:13:42.99 NEW SESSION
+Sep 17, 2023 17:13:42.99 [16344:21184:0917/171342.099:ERROR:policy_logger.cc(154)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(163) Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 17, 2023 17:13:42.133 [16344:21184:0917/171342.133:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 17, 2023 17:13:42.312 [16344:21184:0917/171342.312:ERROR:edge_auth_errors.cc(504)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 17, 2023 17:13:42.312 
+Sep 17, 2023 17:13:52.423 [16344:21184:0917/171352.423:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Sep 17, 2023 17:13:52.491 [16344:21184:0917/171352.491:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Sep 19, 2023 12:10:15.51 NEW SESSION
+Sep 19, 2023 12:10:15.52 [12300:9504:0919/121015.050:ERROR:policy_logger.cc(154)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(163) Cloud management controller initialization aborted as CBCM is not enabled.
+Sep 19, 2023 12:10:15.111 [12300:9504:0919/121015.110:ERROR:assistance_home_client.cc(32)] File path C:\Users\acer\AppData\Local\Microsoft\Edge\User Data\Default
+Sep 19, 2023 12:10:15.290 [12300:9504:0919/121015.290:ERROR:edge_auth_errors.cc(504)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+Sep 19, 2023 12:10:15.291 

@@ -29,6 +29,36 @@
   	<description></description>
   	<servlet-class>com.demo.servlet.admin.Khoa_Servlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>BacsiServlet</servlet-name>
+  	<display-name>BacsiServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlet.admin.BacsiServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BenhnhanServlet</servlet-name>
+  	<display-name>BenhnhanServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlet.admin.BenhnhanServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>KhoaServletUser</servlet-name>
+  	<display-name>KhoaServletUser</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlet.user.KhoaServletUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BenhnhanUserSevlet</servlet-name>
+  	<display-name>BenhnhanUserSevlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlet.user.BenhnhanUserSevlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BenhnhanUserServlet</servlet-name>
+  	<display-name>BenhnhanUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.demo.servlet.user.BenhnhanUserServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>AdminServlet</servlet-name>
   	<url-pattern>/AdminServlet</url-pattern>
@@ -44,6 +74,26 @@
   <servlet-mapping>
   	<servlet-name>Khoa_Servlet</servlet-name>
   	<url-pattern>/Khoa_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BacsiServlet</servlet-name>
+  	<url-pattern>/BacsiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BenhnhanServlet</servlet-name>
+  	<url-pattern>/BenhnhanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>KhoaServletUser</servlet-name>
+  	<url-pattern>/KhoaServletUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BenhnhanUserSevlet</servlet-name>
+  	<url-pattern>/BenhnhanUserSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BenhnhanUserServlet</servlet-name>
+  	<url-pattern>/BenhnhanUserServlet</url-pattern>
   </servlet-mapping>
   
     <welcome-file-list>

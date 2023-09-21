@@ -33,12 +33,16 @@
     <fullyQualifiedTypeName name="com.demo.entities.Account"/>
     <fullyQualifiedTypeName name="javax.management.relation.Role"/>
     <fullyQualifiedTypeName name="com.demo.entities.Product"/>
-    <fullyQualifiedTypeName name="com.demo.models.KhoaModel"/>
-    <fullyQualifiedTypeName name="com.demo.entities.Bacsi"/>
-    <fullyQualifiedTypeName name="com.demo.models.BacsiModel"/>
-    <fullyQualifiedTypeName name="com.demo.entities.Khoa"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
     <fullyQualifiedTypeName name="com.demo.entities.Category"/>
+    <fullyQualifiedTypeName name="com.demo.entities.Bacsi"/>
+    <fullyQualifiedTypeName name="com.demo.entities.Khoa"/>
+    <fullyQualifiedTypeName name="com.demo.entities.Lichkham"/>
+    <fullyQualifiedTypeName name="com.demo.models.LichkhamModel"/>
+    <fullyQualifiedTypeName name="com.demo.models.KhoaModel"/>
+    <fullyQualifiedTypeName name="com.demo.models.BacsiModel"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="com.demo.models.BenhnhanModel"/>
+    <fullyQualifiedTypeName name="com.demo.entities.Benhnhan"/>
 </qualifiedTypeNameHistroy>
